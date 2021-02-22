@@ -1,0 +1,76 @@
+@mixin bagian($direct, $backColor) {
+  height: 100vh;
+  flex-direction: $direct;
+  background-color: $backColor;
+}
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin sebelum($trans, $opac) {
+  transform: $trans;
+  opacity: $opac;
+  transition: 1s;
+}
+
+@import "./jsThings";
+
+.head {
+  @include bagian(column, rgb(228, 228, 228));
+  color: $textColor;
+  display: flex;
+  nav {
+    color: rgb(167, 11, 11);
+    position: relative;
+    align-self: flex-end;
+    justify-self: flex-start;
+    width: 415px;
+    margin-top: 30px;
+    margin-right: 20px;
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      @include flexCenter();
+      justify-content: space-around;
+      li {
+        cursor: pointer;
+      }
+      .khusus {
+        width: 70px;
+        height: 30px;
+        background-color: brown;
+        color: cornsilk;
+        @include flexCenter();
+        border-radius: 15px;
+      }
+    }
+  }
+  .kelebihan {
+    margin-left: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    h1 {
+      font-size: 3em;
+    }
+    button {
+      margin-left: 10px;
+      background-color: $Btn;
+      width: fit-content;
+      height: fit-content;
+      &:hover {
+        background-color: green;
+      }
+    }
+  }
+}
+
+// JS Things
+
+.sebelum {
+  @include sebelum(translateY(50px), 0);
+}

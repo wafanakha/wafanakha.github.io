@@ -1,0 +1,369 @@
+.sesudah {
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+}
+
+.buram {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.moencoel-sudah {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.head, .mid, .foot {
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e4e4e4;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head nav, .mid nav, .foot nav {
+  color: #a70b0b;
+  position: relative;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-start;
+  width: 415px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.head nav ul, .mid nav ul, .foot nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.head nav ul li, .mid nav ul li, .foot nav ul li {
+  cursor: pointer;
+}
+
+.head nav ul .khusus, .mid nav ul .khusus, .foot nav ul .khusus {
+  width: 70px;
+  height: 30px;
+  background-color: brown;
+  color: cornsilk;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+}
+
+.head .kelebihan, .mid .kelebihan, .foot .kelebihan {
+  margin-left: 60px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.head .kelebihan h1, .mid .kelebihan h1, .foot .kelebihan h1 {
+  font-size: 3em;
+}
+
+.head .kelebihan button, .mid .kelebihan button, .foot .kelebihan button {
+  margin-left: 10px;
+  background-color: #ff3333;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.head .kelebihan button:hover, .mid .kelebihan button:hover, .foot .kelebihan button:hover {
+  background-color: green;
+}
+
+.sebelum {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.sesudah {
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+}
+
+.buram {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.moencoel-sudah {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.head, .mid, .foot {
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e4e4e4;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head nav, .mid nav, .foot nav {
+  color: #a70b0b;
+  position: relative;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-start;
+  width: 415px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.head nav ul, .mid nav ul, .foot nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.head nav ul li, .mid nav ul li, .foot nav ul li {
+  cursor: pointer;
+}
+
+.head nav ul .khusus, .mid nav ul .khusus, .foot nav ul .khusus {
+  width: 70px;
+  height: 30px;
+  background-color: brown;
+  color: cornsilk;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+}
+
+.head .kelebihan, .mid .kelebihan, .foot .kelebihan {
+  margin-left: 60px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.head .kelebihan h1, .mid .kelebihan h1, .foot .kelebihan h1 {
+  font-size: 3em;
+}
+
+.head .kelebihan button, .mid .kelebihan button, .foot .kelebihan button {
+  margin-left: 10px;
+  background-color: #ff3333;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.head .kelebihan button:hover, .mid .kelebihan button:hover, .foot .kelebihan button:hover {
+  background-color: green;
+}
+
+.sebelum {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.sesudah {
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+}
+
+.buram {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.moencoel-sudah {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.mid {
+  background-color: azure;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mid .jelas {
+  margin-top: 100px;
+  margin-right: 60px;
+  height: 300px;
+  width: 300px;
+  text-align: right;
+}
+
+.mid .jelas p {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.buram-belum {
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+}
+
+.moencoel-belum {
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+.sesudah {
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+}
+
+.buram {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.moencoel-sudah {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot {
+  background-color: #b7f764;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.foot p {
+  display: inline-block;
+  width: 300px;
+}
+
+footer {
+  background-color: #b7f764;
+}
+/*# sourceMappingURL=style.css.map */

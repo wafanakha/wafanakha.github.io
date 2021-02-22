@@ -1,0 +1,31 @@
+@import "./header";
+@import "./jsThings";
+
+.mid {
+  @extend .head;
+  background-color: azure;
+  @include flexCenter;
+  align-items: flex-end;
+  .jelas {
+    margin-top: 100px;
+    margin-right: 60px;
+    height: 300px;
+    width: 300px;
+    text-align: right;
+    p {
+      margin-top: 10px;
+      text-align: right;
+    }
+  }
+}
+
+.buram-belum {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 0.8s all ease-in-out;
+}
+
+.moencoel-belum {
+  opacity: 0;
+  transform: translateY(50px);
+}
